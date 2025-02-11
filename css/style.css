@@ -1,36 +1,60 @@
-.card-container1{
+=======
+.section-2{
+    background-color: rgba(0, 0, 0, 0.788);
+}
+.start{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+gap: 15px;
+grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+display: grid;
+}
+.group-2{
     display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    background-color:black;
-    
+    gap: 10px;
+    margin-bottom: 50px; 
+    height: 300px;
     
 }
-
-
-.card{
-    width: 320px;
-    background-color: white;
-    border-radius: 5px;
-    margin: 20px;
+.div-7{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
    
-    
-    
-    
-    }
-    .project p{
-        padding-right: 100px; 
-    }
-    
-    .project h4{
-        font-size: 18px;
-        padding-right: 200px;
-        margin: 10px;
-    }
-    
-    .project span {
-        color: rgb(64, 149, 219);
-        margin-left: 170px;
-        
-    
-    }
+}
+.h1-4, .h1-6{
+    font-size: 75px;
+    margin-bottom: 100px;
+    color: rgb(0, 200, 255);
+}
+.h1-5{
+   
+    border: 2px solid rgba(255, 255, 255, 0.852);
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.215), -1px -1px12px rgba(0, 0,0, 0.2); 
+   width: 150px;
+   height: 35px;
+   margin-top: 100px;
+   padding-top: 10px;
+   padding-left: 22px;
+}
+
+h5{
+    padding-left: 20px;
+}
+.section-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    gap: 5PX;
+      
+}
+
+.div-8{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
