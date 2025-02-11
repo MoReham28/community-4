@@ -1,11 +1,6 @@
-body{
-   
-    gap: 10px;
-}
+=======
 .section-2{
     background-color: rgba(0, 0, 0, 0.788);
-   
-  
 }
 .start{
  display: flex;
@@ -16,30 +11,12 @@ gap: 15px;
 grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
 display: grid;
 }
-.group-1{
-    display: flex;
-    gap: 10px;
-    margin-bottom: 50px; 
-}
 .group-2{
     display: flex;
     gap: 10px;
     margin-bottom: 50px; 
-
-}
-.group-1, .group-2{
     height: 300px;
     
-}
-.span-1, .span-2, .span-3, .span-4, .span-5, .span-6{
-    color:  rgba(0, 179, 255, 0.605);
-   display: flex;
-   text-align: center;
-}
-.p-1, .p-2, .p-3, .p-4, .p-5, .p-6{
-    color: #7777;
-    padding-left: 20px;
-    font-size: 15px;
 }
 .div-7{
     display: flex;
@@ -57,25 +34,13 @@ display: grid;
     border: 2px solid rgba(255, 255, 255, 0.852);
     border-radius: 3px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.215), -1px -1px12px rgba(0, 0,0, 0.2); 
-    color: white;
    width: 150px;
    height: 35px;
    margin-top: 100px;
    padding-top: 10px;
    padding-left: 22px;
 }
-.card-1, .card-2, .card-3, .card-4, .card-5, .card-6{
-    background-color: white;
-  
-   
-    
 
-}
-
-
-img{
-width: 270px;
-}
 h5{
     padding-left: 20px;
 }
@@ -92,10 +57,4 @@ h5{
     display: flex;
     justify-content: center;
     gap: 7px;
-}
-
-span{
-  font-size: small;
-  padding-top: 24px;
-  padding-left: 70px;
 }
