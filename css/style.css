@@ -6,6 +6,7 @@
 body{
     font-family: "Work Sans", serif;
 }
+
 .container{
     width: 600px;
     margin: 0 auto;
@@ -30,8 +31,7 @@ body{
         width: 1170px;
     }
 }
-
-/*Start Projects*/
+/*project*/
 .project{
     background-color:#4e4e4e;
 }
@@ -132,4 +132,65 @@ h5{
     border-radius: 5px;
     margin: 15px;
 }
-/*End Projects*/
+/*services start */ 
+.services {
+  background-color : #FFFFFF;
+  padding-top :50px ;
+}
+.rose{
+  display: flex ;
+  justify-content:center;
+  margin:auto;
+  width:220px ;
+}
+.special-icon-2{
+    font-size : 15px;
+}
+
+h1{
+  text-align: center;
+  color : black;
+  border: 2px solid #C6C6C7;
+  padding :5px ;
+  width : 140px ;
+  margin :auto;
+  margin-bottom: 50px ;
+} 
+
+.card-container{
+  display: flex ;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px ;
+} 
+
+.card{
+  width : 300px; 
+  height :300px;
+  padding :20px ;
+  border : 2px solid #FFFFFF;
+  border-radius :5px ;
+  text-align: center;
+  box-shadow: 0px 2px 4px;
+} 
+
+i{
+  color: #A9EEFF;
+  font-size: 40px ;
+  margin-top: 20px ;
+} 
+
+.special-icon {
+  color: #FFD0D9;
+} 
+
+.card-title {
+  font-size :20px ;
+  font-family : monospace;
+} 
+.card-text {
+  font-family : cursive ;
+  font-size: 20px ;
+  margin-top: -10px;
+/*services end*/
