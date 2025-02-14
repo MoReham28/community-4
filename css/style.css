@@ -10,7 +10,6 @@ body{
     width: 600px;
     padding-left: 50px;
     padding-right: 50px;
-    display: flex;
 }
 /*Small*/
 @media (max-width: 768px) {
@@ -69,7 +68,7 @@ body{
 .hero-2 p {
     font-size: 25px;
 }
-button {
+.hero-2 button {
     display: block;
     background-color: #3498db;
     border: 2px solid #3498db;
@@ -78,7 +77,7 @@ button {
     color: white;
     padding: 8px 15px;
     font-size: 15px;
-    margin-bottom: 25px 0;
+    margin-bottom: 15px;
 }
 .icon {
     display: flex;
@@ -152,7 +151,7 @@ button {
     padding: 2px 10px 25px ;
     color: #777;
 }
- /*services end*/
+/*services end*/
 /*Start Project*/
 .project{
     background-color:#4e4e4e;
@@ -320,9 +319,10 @@ div .phone p{
     background-color: #87ceea;
     text-align: center;
     font-size: 20px;
-}
-.made{
     color: white;
+}
+.footer p{
+    display: inline;
 }
 .mo{
     color: palevioletred;
