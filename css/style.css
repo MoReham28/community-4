@@ -22,9 +22,6 @@ body{
     .card-container1 .card{
         margin: 15px;
     }
-    div .phone{
-        width: 100%;
-    }
 }
 /*Medium*/
 @media (max-width: 992px) {
@@ -293,7 +290,6 @@ h5{
 }
 .contacts-cards{
     display: flex ;
-    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 25px;
@@ -302,7 +298,8 @@ div .phone{
     border: 2px solid rgba(255, 255, 255, 0.852);;
     box-shadow: -2px -2px 2px rgba(0,0,0,0.1), 2px 2px 2px rgba(0,0,0,0.1);
     text-align: center;
-    width: 320px;
+    width: 100%;
+    max-width: 320px;
     margin: 15px;
     border-radius: 5px;
     background-color: #FFFFFF ;
