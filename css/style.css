@@ -43,7 +43,7 @@ body{
 }
 /*Start Header*/
 .hero {
-    background: url('img/WhatsApp\ Image\ 2025-02-03\ at\ 11.36.37_c08593cb.jpg') no-repeat center center/cover;
+    background: url('../img/background.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -84,8 +84,8 @@ body{
     gap: 10px;
 }
 .icon a {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     margin-top: 10px;
     background-color: #87ceea;
     border-radius: 2px;
