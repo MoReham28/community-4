@@ -6,7 +6,6 @@
 body{
     font-family: "Work Sans", serif;
 }
-
 .container{
     width: 600px;
     padding-left: 50px;
@@ -317,10 +316,6 @@ div .phone p{
 }
 /*End Contact*/
 /*Start Footer*/
-footer{
-    background-color: #f8f9fa;
-    width: 100%;
-}
 .footer{
     background-color: #87ceea;
     text-align: center;
