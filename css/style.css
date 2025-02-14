@@ -43,7 +43,7 @@ body{
 }
 /*Start Header*/
 .hero {
-    background: url(img/WhatsApp\ Image\ 2025-02-03\ at\ 11.36.37_c08593cb.jpg) no-repeat center center/cover;
+    background: url('/img/WhatsApp\ Image\ 2025-02-03\ at\ 11.36.37_c08593cb.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: flex-start;
