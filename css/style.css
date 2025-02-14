@@ -22,6 +22,9 @@ body{
     .card-container1 .card{
         margin: 15px;
     }
+    div .phone{
+        width: 100%;
+    }
 }
 /*Medium*/
 @media (max-width: 992px) {
