@@ -258,10 +258,11 @@ body{
     font-size: 18px;
     display: inline;
 }  
-.project span {
+.project a {
     color: #87ceea;
-    margin-left: 100px;
+    margin-left: 95px;
     font-size: 15px;
+    text-decoration: none;
 }
 /*End Project 1*/
 /*Start Project 2*/
@@ -293,10 +294,11 @@ body{
 .group-2 .info {
     padding: 5px 10px;
 }
-.group-2 .info span{
+.group-2 .info a{
     color:  #87ceea;
     font-size: 15px;
     margin-left: 85px;
+    text-decoration: none;
 }
 .group-2 .info p{
     color: #777;
