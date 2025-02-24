@@ -40,7 +40,6 @@ body{
     }
     .navbar-nav .nav-link{
         margin-left: 35px;
-        margin-right: 35px;
     }
 }
 /*Medium*/
@@ -101,7 +100,7 @@ body{
     color: white;
     position: absolute;
     left: 14%;
-    top: 42%;
+    top: 40%;
 }  
 .hero-2 h1 {
     font-size: 25px;
